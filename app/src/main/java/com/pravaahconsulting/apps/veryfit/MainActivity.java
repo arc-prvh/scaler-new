@@ -25,6 +25,7 @@ import androidx.core.app.ActivityCompat;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import android.util.Log;
 
 import cn.icomon.icdevicemanager.ICDeviceManager;
 import cn.icomon.icdevicemanager.ICDeviceManagerDelegate;
