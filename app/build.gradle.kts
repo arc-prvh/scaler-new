@@ -37,7 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(files("C:\\Users\\anwes\\codes\\VeryFit\\libs\\ICDeviceManager.aar"))
+    implementation(files("C:/Users/Katrix/Work/Scaler/libs/ICDeviceManager.aar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
