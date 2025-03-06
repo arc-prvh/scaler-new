@@ -66,6 +66,7 @@ public class MainActivity extends Activity implements ICScanDeviceDelegate, ICDe
 
     @Override
     public void onCallBack(Object obj) {
+        Log.w(TAG, obj.toString());
         _deviceInfo = (ICScanDeviceInfo) obj;
         if (device == null)
             device = new ICDevice();
