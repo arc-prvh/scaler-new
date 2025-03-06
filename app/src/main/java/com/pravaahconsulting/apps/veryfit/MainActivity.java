@@ -75,6 +75,8 @@ public class MainActivity extends Activity implements ICScanDeviceDelegate, ICDe
         btn_scan.setEnabled(false);
         btn_del.setEnabled(true);
 
+        Log.w(tag, "The device on callback: " + device.toString());
+
         ICDeviceManager.shared().addDevice(device, new ICConstant.ICAddDeviceCallBack() {
             @Override
             public void onCallBack(ICDevice device, ICConstant.ICAddDeviceCallBackCode code) {
