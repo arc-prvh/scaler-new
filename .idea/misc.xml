@@ -1,0 +1,27 @@
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="PromptTemplates">
+    <option name="prompts">
+      <list>
+        <PromptTemplate>
+          <option name="name" value="Explain this code" />
+          <option name="text" value="Explain next code: &#10; $SELECTION" />
+        </PromptTemplate>
+        <PromptTemplate>
+          <option name="name" value="Summarize this file" />
+          <option name="text" value="Summarize this file in a couple of lines&#10; $CURRENT_FILE" />
+        </PromptTemplate>
+        <PromptTemplate>
+          <option name="name" value="Summarize this code" />
+          <option name="text" value="Summarize this code in a couple of lines&#10; $SELECTION" />
+        </PromptTemplate>
+      </list>
+    </option>
+  </component>
+</project>

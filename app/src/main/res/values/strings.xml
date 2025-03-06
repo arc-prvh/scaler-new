@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Very Unfit</string>
+    <string name="btn_scan">Add Device</string>
+    <string name="btn_remove">Delete Device</string>
+    <string name="btn_unit">Unit</string>
+    <string name="btn_cal">Set Cal</string>
+    <string name="title_activity_scan">ScanActivity</string>
+</resources>
